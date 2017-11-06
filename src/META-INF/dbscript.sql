@@ -1,0 +1,1 @@
+CREATE TABLE book (book_id INTEGER AUTO_INCREMENT NOT NULL, author VARCHAR(255), date DATE, description LONGTEXT, genre VARCHAR(255), price DECIMAL(38), title VARCHAR(255), PRIMARY KEY (book_id))
